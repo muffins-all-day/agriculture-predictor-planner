@@ -15,8 +15,8 @@ def load_data():
 df = load_data()
 # --- Step 3: Sidebar for User Input ---
 st.sidebar.header("Crop Predictor Inputs")
-selected_state = st.sidebar.selectbox("Select State",df['State Name'].unique())
-selected_district = st.sidebar.selectbox("Select District", df[df['State Name'] == selected_state]['Dist Name'].unique())
+selected_state = st.sidebar.selectbox("Select State",sorted(df['State Name'].unique()))
+selected_district = st.sidebar.selectbox("Select District", sorted(df[df['State Name'] == selected_state]['Dist Name'].unique()))
 selected_month = st.sidebar.selectbox("Select Month", ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
 
 # Optional: add additional sliders/inputs for scenario simulation
