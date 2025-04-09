@@ -14,16 +14,18 @@ This document summarizes the analysis of the time series graph that plots the av
 
 ### 2. Mid-Range Cluster of Crops
 - **Concentration:**  
-  The three crops soyabean, oilseeds, rapseed and mustard, show above average yields clustering between 1500 and 2,500 Kg per ha.
+  The three crops rice, wheat, and maize show above average yields clustering between 1500 and 2,500 Kg per ha.
 - **Group Characteristics:**
-  - **Oilseeds and Others:** Generally, yield above average yields.
   - **Cereals:** Typically display mid-range values (rice, wheat, maize).
   - **Pulses:** Often present lower yields.
+  - **Oilseeds:** Lowest yield
   
 
 ### 3. Overall Stability and Variability
 - **Year-to-Year Trends:**  
   Although all crops display some variability, the fluctuations from year to year are generally modest. There are no dramatic peaks or troughs across the entire timeframe.
+  Year 2003 shows dips for all crops due to a 19% monsoon rainfall deficiency at the national level.
+  
 - **Interpretation:**  
   This stability suggests consistent agricultural practices over time, though the moderate changes may reflect gradual improvements, weather variations, or policy impacts.
 
