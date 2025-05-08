@@ -32,6 +32,20 @@
 - **Best CV RMSE**: 656.02
 - **Test RMSE**: 647.61
 - **Test R²**: 0.547
+- **Best Hyperparameters**:
+   ```python
+  {
+   'model__subsample': 0.8,
+   'model__reg_lambda': 5,
+   'model__reg_alpha': 0,
+   'model__n_estimators': 100,
+   'model__max_depth': 5,
+   'model__learning_rate': 0.1,
+   'model__gamma': 1,
+   'model__colsample_bytree': 0.8
+   }
+
+
 
 ---
 
@@ -41,6 +55,19 @@
 - **Best CV RMSE**: 421.04
 - **Test RMSE**: 399.60
 - **Test R²**: 0.828
+- **Best Hyperparameters**:
+  ```python
+  {
+  'model__subsample': 0.6,
+  'model__reg_lambda': 10,
+  'model__reg_alpha': 0,
+  'model__n_estimators': 300,
+  'model__max_depth': 9,
+  'model__learning_rate': 0.2,
+  'model__gamma': 1,
+  'model__colsample_bytree': 1.0
+  }
+
 
 ---
 
